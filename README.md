@@ -13,13 +13,13 @@ Each Capture group has the following meaning:
 1. \* for home team, a for away team
 2. player number in double digit form, i.e. 08
 3. Action
-  * S: Serve
-  * R: Reception
-  * A: Attack
-  * B: Block
-  * D: Dig
-  * E: Set
-  * F: Free Ball
+    * S: Serve
+    * R: Reception
+    * A: Attack
+    * B: Block
+    * D: Dig
+    * E: Set
+    * F: Free Ball
 4. Optional specification of the ball, currently not used for the report
 5. Quality of the action, each having a different meaning for each action.
 
