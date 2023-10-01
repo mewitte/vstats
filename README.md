@@ -6,7 +6,7 @@ Scout Match is a module to parse input files containing DataVolley style codes a
 
 At this point, only basic codes are supported. A basic code follows the following format:
 
-([\*|a])([0-9](2))([S|R|A|B|D|E|F])([H|M|Q|T|U|F|O]?)([#|+|!|/|-|=])
+([\*|a])(\[0-9\](2))([S|R|A|B|D|E|F])([H|M|Q|T|U|F|O]?)([#|+|!|/|-|=])
 
 Each Capture group has the following meaning:
 
