@@ -4,6 +4,8 @@ Scout Match is a module to parse input files containing DataVolley style codes a
 
 ## Limitations
 
+At this point, rallies are not checked for a valid flow of events or for completeness.
+
 At this point, only basic codes are supported. A basic code follows the following format:
 
 ([\*|a])(\[0-9\](2))([S|R|A|B|D|E|F])([H|M|Q|T|U|F|O]?)([#|+|!|/|-|=])
@@ -32,8 +34,6 @@ Each Capture group has the following meaning:
 | D | Perfect dig | Good dig - Close to perfect | Acceptable dig - setter position moved | Very bad dig - No attack possible | Bad dig - Highball set | Mistake - Opponent point |
 | E | Perfect set | Good set - minimal inaccuracy | Acceptable set - bigger inaccuracy | Very bad set - No attack possible | Bad set - very big inaccuracy | Mistake - Opponent point |
 | F | Perfect freeball | Good freeball - Close to perfect | Acceptable freeball - setter has to move | Very bad freeball - No attack possible | Bad freeball - Highball set | Mistake - Opponent point |
-
-At this point, rallies are not checked for a valid flow of events or for completeness.
 
 ## Input
 
