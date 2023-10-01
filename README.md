@@ -2,6 +2,14 @@
 
 Scout Match is a module to parse input files containing DataVolley style codes and parses them into an array structure.
 
+## Usage
+
+```bash
+python3 -m venv venv
+source venv/bin/activate
+python main.py path/to/match_dir
+```
+
 ## Limitations
 
 At this point, rallies are not checked for a valid flow of events or for completeness.
