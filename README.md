@@ -10,6 +10,14 @@ source venv/bin/activate
 python main.py path/to/match_dir
 ```
 
+### Input
+
+For input, this module takes a filepath to a folder, containing text files, named x.txt, where x is a number from 1 to 5, corresponding to the set played. The text files contain basic codes. Each line represents a single rally.
+
+### Output
+
+This package will create match reports in textform in the folder the match is in.
+
 ## Limitations
 
 At this point, rallies are not checked for a valid flow of events or for completeness.
@@ -42,11 +50,3 @@ Each Capture group has the following meaning:
 | D | Perfect dig | Good dig - Close to perfect | Acceptable dig - setter position moved | Very bad dig - No attack possible | Bad dig - Highball set | Mistake - Opponent point |
 | E | Perfect set | Good set - minimal inaccuracy | Acceptable set - bigger inaccuracy | Very bad set - No attack possible | Bad set - very big inaccuracy | Mistake - Opponent point |
 | F | Perfect freeball | Good freeball - Close to perfect | Acceptable freeball - setter has to move | Very bad freeball - No attack possible | Bad freeball - Highball set | Mistake - Opponent point |
-
-## Input
-
-For input, this module takes a filepath to a folder, containing text files, named x.txt, where x is a number from 1 to 5, corresponding to the set played. The text files contain basic codes. Each line represents a single rally.
-
-## Output
-
-This package will create match reports in textform in the folder the match is in.
