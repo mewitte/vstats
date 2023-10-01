@@ -1,0 +1,17 @@
+[build-system]
+requires = [
+  'setuptools'
+]
+build-backend = 'setuptools.build_meta'
+
+[project]
+name = 'vstats_scout_match'
+version = '0.0.1'
+authors = [
+  { name = 'Melvin Witte', email = 'melvin.witte@gmail.com' }
+]
+description = 'A python package to parse a a set of files containing DataVolley/Volleystation codes into an array, preparing them for creating reports.'
+readme = 'README.md'
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+dependencies = []
