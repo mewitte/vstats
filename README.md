@@ -10,7 +10,7 @@ At this point, only basic codes are supported. A basic code follows the followin
 
 Each Capture group has the following meaning:
 
-1. * for home team, a for away team
+1. \* for home team, a for away team
 2. player number in double digit form, i.e. 08
 3. Action
   * S: Serve
